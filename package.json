@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node backend/server",
-    "server": "nodemon backend/server",
+    "server": "nodemon backend/server.js",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
@@ -21,8 +21,10 @@
   },
   "homepage": "https://github.com/bgdmatei/proshop-mern#readme",
   "dependencies": {
+    "colors": "^1.4.0",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7"
   },
   "devDependencies": {
     "concurrently": "^5.3.0",
