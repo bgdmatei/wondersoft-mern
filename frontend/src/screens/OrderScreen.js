@@ -31,6 +31,7 @@ const OrderScreen = ({ match }) => {
       order.orderItems.reduce((acc, item) => acc + item.price * item.qty, 0)
     );
   }
+
   useEffect(() => {
     const addPayPalScript = async () => {
       const { data: clientId } = await axios.get('/api/config/paypal');
@@ -57,7 +58,6 @@ const OrderScreen = ({ match }) => {
   }, [dispatch, order, orderId, successPay]);
 
   const successPaymentHandler = (paymentResult) => {
-    console.log(paymentResult);
     dispatch(payOrder(orderId, paymentResult));
   };
 
