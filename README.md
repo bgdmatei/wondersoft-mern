@@ -1,4 +1,4 @@
-# Tech SHop eCommerce Platform
+# Tech Shop eCommerce Platform
 
 > eCommerce platform built with the MERN stack & Redux.
 
