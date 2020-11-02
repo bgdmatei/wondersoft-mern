@@ -30,11 +30,11 @@ const HomeScreen = ({ match }) => {
       {!keyword ? (
         <ProductCarousel />
       ) : (
-        <Link to='/' className='btn btn-light'>
+        <Link to='/' className='btn btn-light btn-back'>
           Go Back
         </Link>
       )}
-      <h1>Latest products</h1>
+      <h1 className='my-2'>Latest products</h1>
       {loading ? (
         <Loader />
       ) : error ? (

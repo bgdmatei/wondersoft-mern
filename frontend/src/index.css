@@ -2,6 +2,10 @@ main {
   min-height: 80vh;
 }
 
+.btn-back {
+  border: 1px solid #e6e5e5;
+}
+
 h3 {
   padding: 1rem 0;
 }

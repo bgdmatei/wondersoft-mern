@@ -49,7 +49,7 @@ const UserEditScreen = ({ match, history }) => {
 
   return (
     <>
-      <Link to='/admin/userList' className='btn btn-light my-3'>
+      <Link to='/admin/userList' className='btn btn-light btn-back my-3'>
         Go Back
       </Link>
 

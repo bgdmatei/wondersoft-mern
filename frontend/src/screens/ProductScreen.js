@@ -49,7 +49,7 @@ const ProductScreen = ({ history, match }) => {
       dispatch({ type: PRODUCT_CREATE_REVIEW_RESET });
       dispatch(listProductDetails(match.params.id));
     }
-  }, [dispatch, match, successProductReview]);
+  }, [dispatch, match, successProductReview, product.id, product._id]);
 
   const addToCartHandler = () => {
     history.push(`/cart/${match.params.id}?qty=${qty}`);
@@ -67,7 +67,7 @@ const ProductScreen = ({ history, match }) => {
 
   return (
     <>
-      <Link className='btn btn-light my-3' to='/'>
+      <Link className='btn btn-light btn-back my-3' to='/'>
         Go back
       </Link>
       {loading ? (
@@ -198,7 +198,7 @@ const ProductScreen = ({ history, match }) => {
                           <option value='5'>5 - Excellent</option>
                         </Form.Control>
                       </Form.Group>
-                      <Form.Group controId='comment'>
+                      <Form.Group controlId='comment'>
                         <Form.Label>Comment</Form.Label>
                         <Form.Control
                           as='textarea'
