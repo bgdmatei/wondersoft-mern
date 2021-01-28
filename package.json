@@ -1,5 +1,5 @@
 {
-  "name": "techshop",
+  "name": "wondersoft",
   "version": "1.0.0",
   "description": "MERN shopping cart app",
   "main": "server.js",
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bgdmatei/proshop-mern.git"
+    "url": "git+https://github.com/bgdmatei/wondersoft-mern.git"
   },
   "author": "Bogdan Matei",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bgdmatei/proshop-mern/issues"
+    "url": "https://github.com/bgdmatei/wondersoft-mern/issues"
   },
-  "homepage": "https://github.com/bgdmatei/proshop-mern#readme",
+  "homepage": "https://github.com/bgdmatei/wondersoft-mern#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
