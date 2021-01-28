@@ -7,6 +7,7 @@ main {
 }
 
 h3 {
+  font-size: 1.2rem;
   padding: 1rem 0;
 }
 
@@ -31,6 +32,12 @@ h2 {
   top: 0;
 }
 
+.carousel-caption {
+  top: 20%;
+  left: 45%;
+  width: 30%;
+}
+
 .carousel-caption h2 {
   color: #fff;
 }
@@ -40,6 +47,6 @@ h2 {
   padding: 30px;
   margin: 40px;
 }
-.carousel a {
-  margin: 0 auto;
+.carousel-img {
+  margin-left: 10em;
 }
